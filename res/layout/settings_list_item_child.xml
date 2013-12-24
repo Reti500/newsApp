@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:id="@+id/list_item_child"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp"
+            android:paddingLeft="20dp" >
+		   
+			      <!-- android:layout_weight="1" -->
+
+            <RelativeLayout
+                android:id="@+id/setings_list_item_child_contenedor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/setings_list_item_child_img1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:src="@drawable/mi_periodico_foto_perfil" />
+
+                <TextView
+                    android:id="@+id/setings_list_item_child_txt_puntos"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignRight="@id/setings_list_item_child_img1"
+                    android:text="19"
+                    android:textColor="@android:color/white"
+                    android:gravity="center"
+                    android:background="@drawable/fondo_azul" />
+
+            </RelativeLayout>
+			
+			    <CheckedTextView
+			        android:id="@+id/list_item_text_child"
+			        android:layout_width="fill_parent"   
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical"
+			        android:drawableLeft="?android:attr/listChoiceIndicatorMultiple"
+			        android:checked="false"
+			        android:gravity="center_vertical"				
+					android:layout_marginLeft="35dp" />
+   
+     </LinearLayout>
+ 
+   
+
+</LinearLayout>

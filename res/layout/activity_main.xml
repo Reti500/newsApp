@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_azul"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="74dp" >
+
+        <ImageView
+            android:id="@+id/boton_face"
+            android:layout_width="20sp"
+            android:layout_height="60sp"
+            android:gravity="center_horizontal"
+            android:onClick="FaceDialog"
+            android:src="@drawable/login_facebook_button" />
+
+        <ImageView
+            android:id="@+id/boton_twt"
+            android:layout_width="fill_parent"
+            android:layout_height="60sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"
+            android:gravity="center_horizontal"
+            android:onClick="TwtDialog"
+            android:src="@drawable/login_twitter_button" />
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:layout_above="@+id/tableLayout2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
+        android:gravity="center_horizontal"
+        android:src="@drawable/logo_rectangulo" />
+
+</RelativeLayout>
