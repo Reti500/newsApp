@@ -202,6 +202,7 @@ public final class R {
         public static final int acerca=0x7f08000c;
         public static final int action_settings=0x7f080001;
         public static final int app_name=0x7f080000;
+        public static final int conection_error=0x7f080016;
         public static final int facebook=0x7f080004;
         public static final int guia=0x7f08000b;
         public static final int hello_world=0x7f08000e;

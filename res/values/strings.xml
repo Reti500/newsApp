@@ -23,5 +23,6 @@
     <string name="title_activity_foto_dialog">FotoDialog</string>
     <string name="title_activity_editar_perfil">Editar_perfil</string>
     <string name="title_activity_splash">Splash</string>
+    <string name="conection_error">Fallo la conexion</string>
 
 </resources>
